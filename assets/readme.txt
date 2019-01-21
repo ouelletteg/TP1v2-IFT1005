@@ -1,0 +1,1 @@
+Ce fichier ne doit contenir que des images et autres ressources.
