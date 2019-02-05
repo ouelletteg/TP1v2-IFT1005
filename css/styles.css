@@ -1,0 +1,70 @@
+/** Règles d'organisation interne proposées
+1. Paramètres de polices et de couleur
+2. Hauteur, Largeur, Marges, etc. 
+3. Autres???
+**/
+
+/******** Balises générales ********/
+body {
+  margin: 0 1px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-stretch: extra-condensed;
+}
+/******** Haut de page ********/
+
+/*** Section avec image de fond. ***/
+#haut_page {
+  /***Pour repérage 
+  À mettre transparent, éventuellement***/
+  background-color: darkblue;
+
+  height: 1000px;
+}
+
+/*** Titre du site et menu de navigation ***/
+#header {
+  /***Pour repérage 
+  À mettre transparent, éventuellement***/
+  background-color: blue;
+
+  height: 100px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header #logo {
+  font-size: 25px;
+  color: white;
+
+  padding-left: 30px;
+}
+
+#header ul {
+  display: flex;
+
+  list-style-type: none;
+}
+
+#header li {
+  color: gray;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  padding: 0px 20px;
+}
+
+#header li.selected {
+  color: white;
+}
+
+#header li:hover {
+  color: white;
+
+  transition: all 0.5s ease;
+}
