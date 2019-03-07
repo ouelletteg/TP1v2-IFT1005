@@ -3,6 +3,31 @@
   <head>
     <link rel="stylesheet" href="./css/styles.css" />
     <title>GavickPro Theme Demo</title>
+    <link
+      rel="stylesheet"
+      integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B"
+      crossorigin="anonymous"
+    />
+    <style>
+      #haut_page {
+        background-image: url("assets/header_slide1.jpg");
+      }
+    </style>
+    <script language="javascript" type="text/javascript">
+      function slide_left() {
+        var image = new.String();
+        image = document.getElementById("haut_page").style.backgroundImage;
+        if (image == url("assets/header_slide1.jpg")) {
+          document.getElementById("haut_page").style.backgroundImage = 'url("assets/header_slide3.jpg")';
+        }
+        else if (image == url("assets/header_slide2.jpg")) {
+          document.getElementById("haut_page").style.backgroundImage = 'url("assets/header_slide1.jpg")';
+        }
+        else if (image == url("assets/header_slide3.jpg")) {
+          document.getElementById("haut_page").style.backgroundImage = 'url("assets/header_slide2.jpg")';
+        }
+      };
+      </script>
   </head>
   <body>
     <section id="haut_page">
@@ -10,7 +35,7 @@
             -Mettre les images de fond
             -Trouver comme faire changer les images
              --->
-      <header id="header">
+      <header id="header" class="cadre">
         <div id="logo">GK.Infinity</div>
         <nav>
           <ul>
@@ -23,17 +48,69 @@
             <li>J!Pages</li>
           </ul>
         </nav>
-        <div>Réseaux sociaux</div>
-        <div>Recherche</div>
+          <li>
+            <img classe="icone"
+              src="assets/share-alt-solid.svg"
+              alt="Partager"
+            /> 
+            <!---SVG from Font Awesome https://fontawesome.com/ 
+            Licensed at: https://fontawesome.com/license
+            Modifié: mis en gris-->
+          </li>
+          <li>
+            <img classe="icone"
+              src="assets/search-solid.svg"
+              alt="Rechercher"
+            /> 
+            <!---SVG from Font Awesome https://fontawesome.com/ 
+            Licensed at: https://fontawesome.com/license
+            Modifié: mis en gris-->
+          </li>
+        </ul>
       </header>
+      <div>
+        <div>
+            <p id="top-slider-text">Flexible financing from a relationship lender that can grow with your business.</p>
+        </div>
+        <div id="top-slider-booking">
+          <p>Book a consultation ----</p>
+        </div>
+      </div>
+      <nav id="top-slider-nav">
+        <div onclick=slide_left()>
+          <img classe="icone"
+          src="assets/arrow-left-solid.svg"
+          alt="Flèche gauche"
+          height="15px"
+          width="15px"/>
+          <!---SVG from Font Awesome https://fontawesome.com/ 
+            Licensed at: https://fontawesome.com/license
+            Modifié: mis en gris-->
+        </div>
+        <ul>
+          <li class="selected"></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div><img classe="icone"
+          src="assets/arrow-right-solid.svg"
+          alt="Flèche droite"
+          height="15px"
+          width="15px"/>
+          <!---SVG from Font Awesome https://fontawesome.com/ 
+            Licensed at: https://fontawesome.com/license
+            Modifié: mis en gris-->
+        </div>  
+      </nav>
     </section>
     <section>
-      <table>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-      </table>
+      <div>
+        <div>
+          <h2>01 - ABOUT US.</h2>
+          <h3>Infinity Group is an independent Consulting Firm with offices in Chicago.</h3>
+        </div>
+        <div></div>
+      </div>
     </section>
   </body>
 </html>
