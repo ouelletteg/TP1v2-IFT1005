@@ -205,6 +205,14 @@ ul {
   width: 100px;
 }
 
+.arrow {
+  color: gray;
+}
+
+.arrow:hover {
+  color: white;
+}
+
 #about-us {
   display: flex;
   list-style: none;
@@ -273,5 +281,5 @@ ul {
 #what-we-do li {
 }
 
-#service h4 {
+#what-we-do p {
 }
