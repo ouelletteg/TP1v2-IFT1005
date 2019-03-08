@@ -1,1 +1,15 @@
-fhjsdgfjsgfjshdfsdhj
+Problèmes restants à régler:
+
+#haut_page
+-Comment mettre de l'opacité sur l'image 
+du haut sans tout assombrir.
+-Lignes de bordures à mettre un peu partout
+-Navigation avec les deux flèches à placer
+correctement
+-Changement d'images/textes avec les flèches
+à implémenter
+
+#what-we-do
+-Les flèches sur les petits ronds 
+deviennent blancs en même temps que les
+titres.

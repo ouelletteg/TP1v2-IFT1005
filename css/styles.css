@@ -37,7 +37,7 @@ h4 {
 }
 
 .texte_section {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   font-family: "IBM Plex Sans", sans-serif;
   color: gray;
@@ -51,8 +51,7 @@ ul {
 /*** Classes ***/
 
 .icone {
-  height: 15px;
-  width: 15px;
+  font-size: 15px;
 }
 
 .boite-cliquable {
@@ -98,6 +97,12 @@ ul {
 .to_blue li.selected {
   border-color: #06131f;
 }
+
+.pattern {
+  background: url(/joomla3/infinity/templates/gk_infinity/images/pattern.png);
+  background-repeat: repeat;
+}
+
 /******** Haut de page ********/
 /*** Section avec image de fond. ***/
 #haut_page {
@@ -105,7 +110,7 @@ ul {
   background-size: cover;
   background-position: center center;
   /*** J'ai essayé de mettre une transparence, mais elle se mettait sur tout le contenu de la balise ***/
-  /*** opacity: 0.25; ***/
+  /***opacity: 0.25; ***/
   height: 1000px;
   width: 100%;
 }
@@ -256,6 +261,7 @@ ul {
   border-color: gray;
   border-style: solid;
   display: flex;
+  background: url(/joomla3/infinity/templates/gk_infinity/images/pattern.png);
 }
 #what-we-do h2,
 #what-we-do h3 {
@@ -266,8 +272,8 @@ ul {
 }
 
 #what-we-do div:first-child {
-  width: 250px;
-  padding: 270px 100px;
+  width: 500px;
+  padding: 425px 100px;
 }
 
 #what-we-do div:last-child {
@@ -279,7 +285,28 @@ ul {
 }
 
 #what-we-do li {
+  color: black;
+  padding: 100px 50px;
+  height: 400px;
+  width: 200px;
 }
 
 #what-we-do p {
+  color: grey;
+}
+
+#what-we-do i {
+  font-size: 50px;
+  color: gray;
+}
+
+#what-we-do li:hover {
+  color: white;
+  background-color: #06131f;
+}
+
+#what-we-do a {
+  background-color: #fff8ac;
+  border-radius: 50%;
+  padding: 7px;
 }
