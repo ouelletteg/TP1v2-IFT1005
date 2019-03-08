@@ -28,7 +28,7 @@ h4,
 h2 {
   font-family: "Verdana";
   font-size: 10px;
-  color: blue;
+  color: #0044bb;
   text-transform: uppercase;
 }
 
@@ -185,7 +185,7 @@ ul {
 
 #bc-top:hover {
   background-color: white;
-  color: blue;
+  color: #0044bb;
 }
 
 #top-slider-nav {
@@ -246,13 +246,13 @@ ul {
 }
 
 #bc-about {
-  color: blue;
-  border-color: blue;
+  color: #0044bb;
+  border-color: #0044bb;
   margin-right: 350px;
 }
 
 #bc-about:hover {
-  background-color: blue;
+  background-color: #0044bb;
   color: white;
 }
 

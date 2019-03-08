@@ -1,3 +1,8 @@
+Site de police 911:
+
+https://www.w3.org/Style/Examples/007/fonts.fr.html
+
+
 Problèmes restants à régler:
 
 #haut_page
@@ -13,3 +18,4 @@ correctement
 -Les flèches sur les petits ronds 
 deviennent blancs en même temps que les
 titres.
+-Il manque le motif dans l'espace vide.
