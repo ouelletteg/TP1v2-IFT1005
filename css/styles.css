@@ -16,7 +16,9 @@ h4 {
   font-family: "Times New Roman", Times, serif;
   font-stretch: extra-condensed;
 }
-h3{font-family:'Prata', serif }
+h3 {
+  font-family: "Prata", serif;
+}
 
 h2,
 h3,
@@ -26,7 +28,7 @@ h4,
 }
 
 h2 {
-  font-family: 'IBM Plex Sans',sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 10px;
   color: #0044bb;
   text-transform: uppercase;
@@ -51,7 +53,9 @@ ul {
 /*** Classes ***/
 
 .icone {
-  font-size: 15px;text-align :center;
+  font-size: 15px;
+  text-align: center;
+  list-style-type: none;
 }
 
 .boite-cliquable {
