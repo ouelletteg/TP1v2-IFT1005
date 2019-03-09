@@ -111,16 +111,19 @@ ul {
 
 .arrow {
   color: gray;
+  border: 1px solid gray;
+}
+
+.arrow-square {
   padding: 50px 50px;
-  border-bottom: 1px solid gray;
+}
+
+.arrow-rectangle {
+  padding: 50px 120px;
 }
 
 .arrow:hover {
   color: white;
-}
-
-.arrows-box {
-  display: flex;
 }
 
 /******** Haut de page ********/
@@ -214,21 +217,6 @@ ul {
   box-sizing: border-box;
   width: 100%;
   display: flex;
-}
-
-#top-slider-nav div,
-#top-slider-nav ul {
-  padding: 0px 30px;
-  vertical-align: bottom;
-}
-#top-slider-nav div:first-of-type {
-  text-align: left;
-  width: 100px;
-}
-
-#top-slider-nav div:last-of-type {
-  text-align: right;
-  width: 100px;
 }
 
 #about-us {
@@ -331,15 +319,21 @@ ul {
   border-bottom: 1px solid lightgrey;
 }
 
-#business-perform {
+#mission h2,
+#mission h3 {
+  text-align: center;
+}
+#mission h3 {
+  font-size: 50px;
 }
 
 #business-perform > ul {
+  list-style-type: none;
   display: flex;
 }
 
 #business-perform > ul > li:first-child {
-  height: 1000px;
+  height: 900px;
   width: 2900px;
 
   background-image: url("../assets/middle_slide1.jpg");
@@ -352,12 +346,19 @@ ul {
   border-left: 1px solid rgb(70, 70, 70);
 }
 
-#mission h2,
-#mission h3 {
-  text-align: center;
+#arrows-box {
+  display: flex;
+  list-style-type: none;
 }
-#mission h3 {
-  font-size: 50px;
+
+#text-box {
+  padding: 80px 110px;
+}
+
+#business-perform h3 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
 
 /*** Page contact ***/
