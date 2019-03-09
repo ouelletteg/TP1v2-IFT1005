@@ -24,29 +24,9 @@
         background-image: url("assets/header_slide1.jpg");
       }
     </style>
-    <script language="javascript" type="text/javascript">
-      function slide_left() {
-        var image = new.String();
-        image = document.getElementById("haut_page").style.backgroundImage;
-        if (image == url("assets/header_slide1.jpg")) {
-          document.getElementById("haut_page").style.backgroundImage = url("assets/header_slide3.jpg");
-        }
-        else if (image == url("assets/header_slide2.jpg")) {
-          document.getElementById("haut_page").style.backgroundImage = url("assets/header_slide1.jpg");
-        }
-        else if (image == url("assets/header_slide3.jpg")) {
-          document.getElementById("haut_page").style.backgroundImage = url("assets/header_slide2.jpg");
-        }
-        alert("Coucou!");
-      };
-    </script>
   </head>
   <body>
     <section id="haut_page">
-      <!--- À faire:
-            -Mettre les images de fond
-            -Trouver comme faire changer les images
-             --->
       <header id="header" class="cadre">
         <div id="logo">GK.Infinity</div>
         <nav>
