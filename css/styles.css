@@ -56,9 +56,7 @@ ul {
   font-size: 25px;
   text-align: center;
   list-style-type: none;
-  
 }
-
 
 .boite-cliquable {
   text-align: center;
@@ -111,13 +109,14 @@ ul {
 
 /******** Haut de page ********/
 /*** Section avec image de fond. ***/
-#haut_page {
+#haut_page,
+#haut-page-contact {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   /*** J'ai essayé de mettre une transparence, mais elle se mettait sur tout le contenu de la balise ***/
   /***opacity: 0.25; ***/
-  height: 400px;
+  height: 1000px;
   width: 100%;
 }
 
@@ -330,4 +329,26 @@ ul {
 }
 #mission h3 {
   font-size: 50px;
+}
+
+/*** Page contact ***/
+
+#haut-page-contact {
+  height: 500px;
+  background-image: url("https://demo.gavick.com/joomla3/infinity/images/demo/bg-2.jpg");
+}
+
+#get-in-touch {
+  color: white;
+  font-size: 60px;
+  margin-left: 325px;
+  margin-right: 325px;
+  text-align: center;
+}
+#get-in-touch.icone {
+  color: gray;
+}
+
+#get-in-touch.icone:hover {
+  color: beige;
 }
