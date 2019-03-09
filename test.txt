@@ -8,6 +8,8 @@ Problèmes restants à régler:
 !!! Le texte sombre est bleu foncé, pas noir!!
 !!! Écrire nos noms!!!
 
+Icônes à trouver sur https://www.flaticon.com/ .
+
 #haut_page
 -Comment mettre de l'opacité sur l'image 
 du haut sans tout assombrir.
