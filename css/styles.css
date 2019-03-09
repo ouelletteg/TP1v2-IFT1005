@@ -102,9 +102,25 @@ ul {
   border-color: #06131f;
 }
 
-.pattern {
+/***Ne fonctionne pas... 
+.pattern { 
   background: url(/joomla3/infinity/templates/gk_infinity/images/pattern.png);
   background-repeat: repeat;
+}
+***/
+
+.arrow {
+  color: gray;
+  padding: 50px 50px;
+  border-bottom: 1px solid gray;
+}
+
+.arrow:hover {
+  color: white;
+}
+
+.arrows-box {
+  display: flex;
 }
 
 /******** Haut de page ********/
@@ -215,14 +231,6 @@ ul {
   width: 100px;
 }
 
-.arrow {
-  color: gray;
-}
-
-.arrow:hover {
-  color: white;
-}
-
 #about-us {
   display: flex;
   list-style: none;
@@ -321,6 +329,27 @@ ul {
   width: 400px;
   padding: 150px 500px 50px;
   border-bottom: 1px solid lightgrey;
+}
+
+#business-perform {
+}
+
+#business-perform > ul {
+  display: flex;
+}
+
+#business-perform > ul > li:first-child {
+  height: 1000px;
+  width: 2900px;
+
+  background-image: url("../assets/middle_slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#business-perform > ul > li:last-child {
+  background-color: #06131f;
+  border-left: 1px solid rgb(70, 70, 70);
 }
 
 #mission h2,
