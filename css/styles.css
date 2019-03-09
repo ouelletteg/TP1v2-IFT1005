@@ -102,9 +102,28 @@ ul {
   border-color: #06131f;
 }
 
-.pattern {
+/***Ne fonctionne pas... 
+.pattern { 
   background: url(/joomla3/infinity/templates/gk_infinity/images/pattern.png);
   background-repeat: repeat;
+}
+***/
+
+.arrow {
+  color: gray;
+  border: 1px solid gray;
+}
+
+.arrow-square {
+  padding: 50px 50px;
+}
+
+.arrow-rectangle {
+  padding: 50px 120px;
+}
+
+.arrow:hover {
+  color: white;
 }
 
 /******** Haut de page ********/
@@ -198,29 +217,6 @@ ul {
   box-sizing: border-box;
   width: 100%;
   display: flex;
-}
-
-#top-slider-nav div,
-#top-slider-nav ul {
-  padding: 0px 30px;
-  vertical-align: bottom;
-}
-#top-slider-nav div:first-of-type {
-  text-align: left;
-  width: 100px;
-}
-
-#top-slider-nav div:last-of-type {
-  text-align: right;
-  width: 100px;
-}
-
-.arrow {
-  color: gray;
-}
-
-.arrow:hover {
-  color: white;
 }
 
 #about-us {
@@ -329,6 +325,40 @@ ul {
 }
 #mission h3 {
   font-size: 50px;
+}
+
+#business-perform > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#business-perform > ul > li:first-child {
+  height: 900px;
+  width: 2900px;
+
+  background-image: url("../assets/middle_slide1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#business-perform > ul > li:last-child {
+  background-color: #06131f;
+  border-left: 1px solid rgb(70, 70, 70);
+}
+
+#arrows-box {
+  display: flex;
+  list-style-type: none;
+}
+
+#text-box {
+  padding: 80px 110px;
+}
+
+#business-perform h3 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
 
 /*** Page contact ***/
