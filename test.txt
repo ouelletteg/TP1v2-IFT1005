@@ -5,6 +5,9 @@ https://www.w3.org/Style/Examples/007/fonts.fr.html
 
 Problèmes restants à régler:
 
+!!! Le texte sombre est bleu foncé, pas noir!!
+!!! Écrire nos noms!!!
+
 #haut_page
 -Comment mettre de l'opacité sur l'image 
 du haut sans tout assombrir.
