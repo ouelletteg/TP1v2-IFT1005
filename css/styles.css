@@ -53,10 +53,12 @@ ul {
 /*** Classes ***/
 
 .icone {
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
   list-style-type: none;
+  
 }
+
 
 .boite-cliquable {
   text-align: center;
