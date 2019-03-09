@@ -12,11 +12,11 @@ body {
 }
 
 h1,
-h3,
 h4 {
   font-family: "Times New Roman", Times, serif;
   font-stretch: extra-condensed;
 }
+h3{font-family:'Prata', serif }
 
 h2,
 h3,
@@ -26,7 +26,7 @@ h4,
 }
 
 h2 {
-  font-family: "Verdana";
+  font-family: 'IBM Plex Sans',sans-serif;
   font-size: 10px;
   color: #0044bb;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ ul {
 /*** Classes ***/
 
 .icone {
-  font-size: 15px;
+  font-size: 15px;text-align :center;
 }
 
 .boite-cliquable {
@@ -111,7 +111,7 @@ ul {
   background-position: center center;
   /*** J'ai essayé de mettre une transparence, mais elle se mettait sur tout le contenu de la balise ***/
   /***opacity: 0.25; ***/
-  height: 1000px;
+  height: 400px;
   width: 100%;
 }
 
