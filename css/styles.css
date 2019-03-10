@@ -43,6 +43,7 @@ h4 {
   line-height: 1.8;
   font-family: "IBM Plex Sans", sans-serif;
   color: gray;
+  margin-bottom: 50px;
 }
 
 ul {
@@ -50,7 +51,7 @@ ul {
   padding: 0;
 }
 
-/*** Classes ***/
+/******** Classes ********/
 
 .icone {
   font-size: 25px;
@@ -67,7 +68,12 @@ ul {
   text-transform: uppercase;
   font-weight: bold;
 }
-
+.circles {
+  text-align: center;
+  border: 1px solid rgba(229, 229, 229, 0.349);
+  display: flex;
+  justify-content: center;
+}
 .circles ul {
   box-sizing: border-box;
   list-style-type: none;
@@ -77,7 +83,7 @@ ul {
 }
 
 .circles li {
-  border: 2px solid grey;
+  border: 2px solid rgba(229, 229, 229, 0.349);
   border-radius: 50%;
   cursor: pointer;
   height: 4px;
@@ -111,7 +117,7 @@ ul {
 
 .arrow {
   color: gray;
-  border: 1px solid gray;
+  border: 1px solid rgba(229, 229, 229, 0.349);
 }
 
 .arrow-square {
@@ -119,15 +125,22 @@ ul {
 }
 
 .arrow-rectangle {
-  padding: 50px 120px;
+  padding: 50px 105px;
 }
 
 .arrow:hover {
   color: white;
 }
 
-/******** Haut de page ********/
-/*** Section avec image de fond. ***/
+.circle-arrow {
+  background-color: #fff8ac;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+/******** PAGE INDEX ********/
+
+/*** Image de fond. ***/
 #haut_page,
 #haut-page-contact {
   background-repeat: no-repeat;
@@ -153,7 +166,7 @@ ul {
   font-size: 25px;
   color: white;
 
-  border-right-color: grey;
+  border-right-color: rgba(229, 229, 229, 0.349);
   border-width: 1px;
   padding-left: 30px;
 }
@@ -186,10 +199,11 @@ ul {
 
 .cadre {
   border-width: 0 0 1px;
-  border-color: grey;
+  border-color: rgba(229, 229, 229, 0.349);
   border-style: solid;
 }
 
+/*** Slider du haut***/
 #top-slider-text {
   color: white;
   font-size: 60px;
@@ -199,7 +213,7 @@ ul {
   text-align: center;
 }
 #bc-top {
-  border-color: gray;
+  border-color: rgba(229, 229, 229, 0.349);
   color: white;
 
   margin-top: 50px;
@@ -219,6 +233,7 @@ ul {
   display: flex;
 }
 
+/***Section About Us ***/
 #about-us {
   display: flex;
   list-style: none;
@@ -226,6 +241,7 @@ ul {
 
 #about-us h3 {
   font-size: 50px;
+  color: #06131f;
 }
 
 #about-us li {
@@ -235,6 +251,9 @@ ul {
   height: 660px;
   width: 550px;
   padding: 270px 100px;
+  background-image: url(https://demo.gavick.com/joomla3/infinity/templates/gk_infinity/images/map.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
 #about-us li:last-child {
@@ -257,9 +276,11 @@ ul {
   color: white;
 }
 
+/*** Section What we do ***/
+
 #what-we-do {
   border-width: 1px 0;
-  border-color: lightgrey;
+  border-color: rgba(229, 229, 229, 0.349);
   border-style: solid;
   display: flex;
   background: url(/joomla3/infinity/templates/gk_infinity/images/pattern.png);
@@ -276,13 +297,13 @@ ul {
   width: 500px;
   height: 350px;
   padding: 425px 100px;
-  border-right: 1px solid lightgrey;
+  border-right: 1px solid rgba(229, 229, 229, 0.349);
 }
 
 #what-we-do ul {
   list-style-type: none;
   display: flex;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.349);
 }
 
 #what-we-do li {
@@ -290,7 +311,7 @@ ul {
   padding: 100px 50px;
   height: 400px;
   width: 200px;
-  border-right: 1px solid lightgrey;
+  border-right: 1px solid rgba(229, 229, 229, 0.349);
 }
 
 #what-we-do p {
@@ -307,16 +328,11 @@ ul {
   background-color: #06131f;
 }
 
-#what-we-do a {
-  background-color: #fff8ac;
-  border-radius: 50%;
-  padding: 7px;
-}
-
+/*** Section Mission ***/
 #mission {
   width: 400px;
   padding: 150px 500px 50px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.349);
 }
 
 #mission h2,
@@ -327,6 +343,8 @@ ul {
   font-size: 50px;
 }
 
+/*** Section Business Perform ***/
+
 #business-perform > ul {
   list-style-type: none;
   display: flex;
@@ -334,7 +352,7 @@ ul {
 
 #business-perform > ul > li:first-child {
   height: 900px;
-  width: 2900px;
+  width: 3600px;
 
   background-image: url("../assets/middle_slide1.jpg");
   background-size: cover;
@@ -343,25 +361,80 @@ ul {
 
 #business-perform > ul > li:last-child {
   background-color: #06131f;
-  border-left: 1px solid rgb(70, 70, 70);
+  border-left: 1px solid rgba(229, 229, 229, 0.349);
+}
+#right-box,
+#arrows-box {
+  list-style-type: none;
 }
 
 #arrows-box {
   display: flex;
-  list-style-type: none;
 }
 
 #text-box {
-  padding: 80px 110px;
-}
-
-#business-perform h3 {
-  color: white;
-  font-size: 40px;
+  padding: 80px 80px;
   text-align: center;
 }
 
-/*** Page contact ***/
+#text-box h3 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+#circles-box {
+  width: 450px;
+  height: 100px;
+  margin-top: 54px;
+}
+
+/*** Section Clients ***/
+#clients {
+  border-width: 1px 0;
+  border-color: rgba(229, 229, 229, 0.349);
+  border-style: solid;
+  display: flex;
+}
+#clients h2,
+#clients h3 {
+  text-align: center;
+}
+#clients h3 {
+  font-size: 35px;
+}
+
+#clients div:first-child {
+  width: 800px;
+  height: 350px;
+  padding: 160px 105px;
+  border-right: 1px solid rgba(229, 229, 229, 0.349);
+}
+
+#clients ul {
+  list-style-type: none;
+  display: flex;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.349);
+}
+
+#clients li {
+  color: black;
+  padding: 50px 50px;
+  border-right: 1px solid rgba(229, 229, 229, 0.349);
+}
+
+#clients img {
+  color: grey;
+  height: 120px;
+  width: 120px;
+  opacity: 0.5;
+}
+
+#clients img:hover {
+  opacity: 1;
+}
+
+/******** Page contact ********/
 
 #haut-page-contact {
   height: 500px;
@@ -382,21 +455,20 @@ ul {
 #get-in-touch.icone:hover {
   color: beige;
 }
-.contact{
-  display:flex;
+.contact {
+  display: flex;
   float: left;
   width: 75%;
-  
-  
+
   border-left: 1px solid rgba(229, 229, 229, 0.349);
 }
-.contact h3{
+.contact h3 {
   margin-bottom: 96px;
   padding-left: 48px;
-  padding-right:100px;
+  padding-right: 100px;
 }
 .contact form {
   margin-bottom: 96px;
   padding-left: 48px;
-  padding-right:100px;
+  padding-right: 100px;
 }
