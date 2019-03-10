@@ -46,6 +46,16 @@ h4 {
   margin-bottom: 50px;
 }
 
+.nav-list {
+  text-transform: uppercase;
+  color: gray;
+  text-decoration: none;
+}
+
+.nav-list:hover {
+  color: white;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -100,7 +110,7 @@ ul {
   border-color: white;
 }
 
-.to_blue {
+.to_blue li:hover {
   border-color: #06131f;
 }
 
@@ -128,8 +138,12 @@ ul {
   padding: 50px 105px;
 }
 
-.arrow:hover {
+.arrow.to_white:hover {
   color: white;
+}
+
+.arrow.to_blue:hover {
+  color: #06131f;
 }
 
 .circle-arrow {
@@ -243,9 +257,6 @@ ul {
 #about-us h3 {
   font-size: 50px;
   color: #06131f;
-}
-
-#about-us li {
 }
 
 #about-us li:first-child {
@@ -452,8 +463,6 @@ ul {
 }
 
 /*** Section Team-pres ***/
-#team-pres {
-}
 
 #team-pres ul {
   display: flex;
@@ -463,6 +472,101 @@ ul {
 #team-pres li {
   border: 1px solid rgba(229, 229, 229, 0.349);
   width: 25%;
+  text-align: center;
+  padding: 90px;
+}
+
+#team-pres img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+#team-pres h3 {
+  font-size: 25px;
+}
+
+#nav-bar {
+  display: flex;
+  list-style-type: none;
+}
+
+#circles-box-team {
+  width: 1113px;
+  height: 116px;
+}
+
+/*** Section Together ***/
+#together {
+  text-align: center;
+  background-color: #06131f;
+  padding: 100px 400px;
+}
+
+#together h3 {
+  color: white;
+  font-size: 45px;
+}
+
+#together .texte_section {
+  font-weight: bold;
+}
+
+#together .boite-cliquable {
+  background-color: #fff8ac;
+  color: #06131f;
+  border-width: 0;
+  margin: 0 170px;
+}
+
+#together .boite-cliquable:hover {
+  background-color: #0044bb;
+  color: #fff;
+}
+
+/*** Navigation en bas ***/
+#nav-bottom {
+  display: flex;
+  background-color: #06131f;
+  list-style-type: none;
+}
+
+#nav-bottom li {
+  padding: 100px 50px;
+  width: 25%;
+  border: 1px solid rgba(229, 229, 229, 0.349);
+}
+
+#nav-bottom li:first-child {
+  padding: 100px 50px 100px 100px;
+}
+
+#nav-bottom h5 {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#nav-bottom div {
+  height: 4px;
+  width: 25px;
+  background-color: #0044bb;
+}
+
+#nav-bottom .nav-list {
+  font-size: 12px;
+}
+
+/*** Footer ***/
+#footer {
+  text-align: center;
+  background-color: #06131f;
+  padding: 100px;
+}
+
+#footer p {
+  color: gray;
+  font-size: 10px;
 }
 
 /******** Page contact ********/
