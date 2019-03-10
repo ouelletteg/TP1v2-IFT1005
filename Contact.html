@@ -35,13 +35,13 @@
           </ul>
         </nav>
         <ul>
-          <li class="icone">
-            <i class="fas fa-share-alt icone"></i>
+          <li>
+            <i class="fas fa-share-alt small-ico"></i>
             <!---SVG from Font Awesome https://fontawesome.com/ 
             Licensed at: https://fontawesome.com/license-->
           </li>
           <li class="icone">
-            <i class="fas fa-search"></i>
+            <i class="fas fa-search small-ico"></i>
             <!---SVG from Font Awesome https://fontawesome.com/ 
             Licensed at: https://fontawesome.com/license-->
           </li>
@@ -49,11 +49,17 @@
       </header>
       <div>
         <p id="top-slider-text-contact">Get in touch with us</p>
-        <li class="icone" id="get-in-touch">
-          <i class="fab fa-facebook icone"></i>
-          <i class="fab fa-twitter icone"></i>
+        <ul class="icone_box" id="get-in-touch">
+          <li>
+            <i class="fab fa-facebook icone"></i>
+          </li>
+          <li>
+            <i class="fab fa-twitter icone"></i>
+          </li>
+          <li >
           <i class="fab fa-google-plus-g icone"></i>
         </li>
+        </ul>
         <div class="center">
           <img src="https://demo.gavick.com/joomla3/infinity/images/demo/bg-2.jpg" alt="Build">
         </div>
@@ -78,15 +84,15 @@
         <table border="0">
           <tr>
             <td> <p class="texte_section">Name* </p></td>
-            <td> <input type="text" name="name" required/></td>
+            <td> <input class="txt-plus-court" type="text" name="name" required/></td>
           </tr>
           <tr>
             <td><p class="texte_section">Email*</p></td>
-            <td> <input type="text" name="mail" required/></td>
+            <td> <input class="txt-plus-court" type="text" name="mail" required/></td>
           </tr>
           <tr>
             <td><p class="texte_section">Subject*</p></td>
-            <td><input type="text" name="subject" required/></td>
+            <td><input class="txt-plus-long" type="text" name="subject" required/></td>
           </tr>
           <tr>
             <td><p class="texte_section">Message*</p></td>
@@ -97,7 +103,7 @@
             <td><input type="checkbox"></td>
           </tr>
           <tr>
-            <td><input type="submit" value="send email"/></td>
+            <td><input class="boite-cliquable" type="submit" value="send email"/></td>
           </tr>
           
         </table>
