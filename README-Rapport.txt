@@ -24,3 +24,9 @@ correctement
 deviennent blancs en même temps que les
 titres.
 -Il manque le motif dans l'espace vide.
+
+Couleurs:
+bleu foncé : #06131f
+bleu ciel : #0044bb
+beige-ish : #fff8ac
+gris-bordures : rgba(229, 229, 229, 0.349)
