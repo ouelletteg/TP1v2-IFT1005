@@ -434,6 +434,36 @@ ul {
   opacity: 1;
 }
 
+/*** Section Our team ***/
+
+#our-team {
+  width: 470px;
+  padding: 150px 425px 50px;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.349);
+}
+
+#our-team h2,
+#our-team h3 {
+  text-align: center;
+}
+#our-team h3 {
+  font-size: 50px;
+}
+
+/*** Section Team-pres ***/
+#team-pres {
+}
+
+#team-pres ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#team-pres li {
+  border: 1px solid rgba(229, 229, 229, 0.349);
+  width: 25%;
+}
+
 /******** Page contact ********/
 
 #haut-page-contact {
